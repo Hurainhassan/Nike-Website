@@ -70,14 +70,24 @@ body{
 .content span{
     color: #ff8367;
 }
+.content button {
+color: white;
+background-color: blue;
+border-radius: 5px;
+padding: 5px;
+width: 100px;
+height: 40px;
+border: none;
+}
 .upperdiv{
     background-color: black;
     border-radius: 30px;
 }
-.divsection h1{
+.divsection h3{
     color: #363958;
     padding-left: 50px;
     font-size: 50px;
+    justify-content: center;
 }
 .shoe1 img{
     background: #F1F1F1;
@@ -95,15 +105,22 @@ body{
         display: flex;
        gap: 130px;
        color: #ff8367;
+       justify-content: center;
+       text-align: center;
 
+    }
+    .cart h3{
+        padding-top: 10px;
+        font-size: larger;
     }
     .cart button{
         color: white;
         background-color: blue;
-        border-radius: 30px;
+        border-radius: 5px;
         padding: 5px;
         width: 100px;
         height: 40px;
+        border: none;
     }
     .divlast{
         display: flex;
@@ -113,9 +130,20 @@ body{
         font-size: large;
         font-weight: bold;
     }
-    @media screen and (max-width:480px){
-        ul {
-            display: none;
+    @media (max-width: 480px) {
+        header{
+            width: 100%;
         }
-        
+        .navlinks li{
+            display:none;
+        }
+        .navlinks{
+            display: 100%;
+            width: 100%;
+
+        }
+        .backdiv{
+            flex-wrap: wrap;
+        }
+
     }
