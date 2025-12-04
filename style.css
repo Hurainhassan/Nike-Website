@@ -130,6 +130,84 @@ border: none;
         font-size: large;
         font-weight: bold;
     }
+    .shoppingsection{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .bigimg img{
+        height: 200px;
+        width: 350px;
+    }
+    .div1{
+        display: flex;
+        margin: 10px;
+        padding-top: 20px;
+    }
+    .div1 img{
+        width: 100px;
+        height: 100px;
+        padding-right: 5px;
+    }
+    .divflex{
+        display: block;
+    }
+    .showinline{
+        display: flex;
+        display: block;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .subscribesection{
+        padding-top: 50px;
+        margin: 30px;
+        margin-left: 150px;
+        width: 900px;
+        height: 200px;
+        background-color: #fff;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .input{
+        width: 700px;
+        height: 50px;
+        display: flex;
+        margin: 70px;
+        padding-left: 50px;
+    }
+    .input input{
+        height: 100%;
+        width: 100%;
+        border-color: black;
+    }
+    .input button{
+        color: white;
+            background-color: blue;
+                        height: 54px;
+            padding: 5px;
+            border: none;
+    }
+    .lastsection{
+        background-color:#f8f9fa;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        /* margin: 20px; */
+        padding: 50px;
+    }
+    .lastsection li{
+        list-style: none;
+        padding: 5px;
+    }
+    .lastone{
+        background-color:#f8f9fa;
+        text-align: center;
+        font-weight: bold;
+    }
     @media (max-width: 480px) {
         header{
             width: 100%;
