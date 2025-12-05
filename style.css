@@ -211,6 +211,16 @@ border: none;
     @media (max-width: 480px) {
         header{
             width: 100%;
+            align-items: center;
+        }
+        .log {
+            width: 100%;
+        }
+        .nike{
+            width: 100%;
+        }
+        .backdiv{
+            display: 100%;
         }
         .navlinks li{
             display:none;
@@ -222,6 +232,27 @@ border: none;
         }
         .backdiv{
             flex-wrap: wrap;
+        }
+        .divlast{
+            flex-wrap: wrap;
+        }
+        .shoppingsection{
+            flex-wrap: wrap;
+        }
+        .shoppingsection .bigimg{
+            order: -1;
+        }
+        .subscribe{
+            width: 480px;
+        }
+        .subscribe .subscribesection{
+            width: 100%;
+        }
+        footer{
+            width: 100%;
+        }
+        .bars{
+            display: block;
         }
 
     }
